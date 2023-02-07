@@ -16,4 +16,8 @@ print("Tipe data :", type(data_float))
 data_complex = 7+8j
 print("Data complex = ",data_complex)
 print("Tipe data :", type(data_complex))
-#
+
+#Tipe data = Kumpulan character
+data_string = "Atha"
+print("Data string = ",data_string)
+print("Tipe data :", type(data_string))
