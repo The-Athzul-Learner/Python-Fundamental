@@ -81,4 +81,33 @@ print("start =", cek_start)
 cek_end = "Sangjangnim Oppak".endswith(("Oppak"))
 print("end =", cek_end)
 
-##Penggabungan Komponen
+##Penggabungan Komponen join() Pemisahan komponen split()
+pisah = ['aku', 'sayang', 'kamu']
+gabung = 'ehm'.join(pisah)
+print(pisah)
+print(gabung)
+
+gabungan = "akuehmsayangehmkamu"
+print(gabungan.split("ehm"))
+
+##Alokasi Karakter rjust(),ljust(), center()
+print(5*"=", "data", "="*5)
+kanan = "surotong".rjust(10)
+print("'",kanan,"'")
+
+kiri = "surotong".ljust(10)
+print("'",kiri,"'")
+
+tengah = "surotong".center(20,":")
+print("'",tengah,"'")
+
+#kebalikannya --> strip()
+tengah = tengah.strip(":") #menghilangkan tanda :
+print("'",tengah,"'")
+
+kanan = kanan.strip()
+print("'",kanan,"'")
+
+
+
+
